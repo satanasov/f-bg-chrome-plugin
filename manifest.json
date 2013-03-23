@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "F-BG Badge",
+	"description": "Show F-BG Events",
+	"version": "0.1",
+	
+	"background": {
+		"page":	"background.html"
+	},
+	
+	"browser_action": {
+		"default_icon": "Clipboard01.png"
+	},
+	
+	"permissions": [ 
+		"http://*.f-bg.org/*"
+	]
+}
